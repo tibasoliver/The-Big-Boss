@@ -1,4 +1,6 @@
-
+.container{
+    font-family: myriad-pro, sans-serif;
+}
 
 #logo{
     position: relative;
@@ -9,7 +11,6 @@
     background-color: #5C006B;
     
 }
-
 
 .flex-container{
     border-radius: 65px;
@@ -60,7 +61,7 @@
     background-color: #5C006B;;
 }
 
-btn{
+.btn{
     border-radius: 5px;
     justify-content: center;
     align-items: center;
@@ -68,7 +69,7 @@ btn{
 }
 
 #nome-produto{
-    font-family: Myriad Pro;
+    font-family: myriad-pro, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -78,7 +79,7 @@ btn{
 }
 
 #categoria{
-    font-family: Myriad Pro;
+    font-family: myriad-pro, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -88,7 +89,7 @@ btn{
 }
 
 #descricao{
-    font-family: Myriad Pro;
+    font-family: myriad-pro, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -96,3 +97,59 @@ btn{
     color: #616161;
 
 }
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+   
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .form_mobile{
+        width: 80%;
+    }
+
+    .search{
+        margin-left: 10px;
+    }
+  
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .form_mobile{
+        width: 80%;
+    }
+
+    .search{
+        margin-left: 10px;
+    }
+  
+    
+  }

@@ -60,6 +60,10 @@
     background-color: #5C006B;;
 }
 
+.Compra-Concluida{
+    background: #FAFAFA;
+}
+
 btn{
     border-radius: 5px;
     justify-content: center;
@@ -95,4 +99,64 @@ btn{
     line-height: 24px;
     color: #616161;
 
+}
+
+.texto-compra{
+    margin-top: 20px;
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    color: #B9B9B9;
+}
+
+.texto-compra-produto{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: rgba(60, 60, 67, 0.6);
+    
+    
+}
+
+.detalhes-container{
+    background-color: white;
+    border-radius: 15px;
+    padding-left:0px;
+    padding-right: 0px;
+    width: 90%;
+    justify-content: center;
+    
+}
+
+#details{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #5C006B;
+}
+
+.labels{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B9B9B9;
+}
+
+.labels-values{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    color: #777777;
 }

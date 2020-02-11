@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,38 +17,80 @@
 <body class="Compra-Concluida">
     <ul class="nav justify-content-center align-items-center" style="background-color: #5C006B; height: 5rem;">
         <li class="nav-item">
-            <a class="nav-link" href="#"><img src="images/Vector.svg" style="height: 3rem;"></a>
-        </li>    
+            <a class="nav-link" href="#"><img src="./images/Vector.svg" style="height: 3rem;"></a>
+        </li>
     </ul>
+    <nav class="navbar navbar-expand-lg navbar-light " style="padding: 0; background-color: #fff;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            style="border: 0; margin-left: .5rem;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="input-group md-form form-sm form-1 pl-0" style="width: 80%; padding: .5rem 1rem;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-text1" style="border: 0; background: #f8f9fa;"><i
+                        class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+            <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search"
+                style="border: 0; background: #f8f9fa;">
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color: #FFE94F;">
+            <ul class="navbar-nav mr-auto">
+                <div class="row" style="    margin-top: 1rem;">
+                    <div class="col">
+                        <div class="row d-flex justify-content-center">
+                            <img src="./images/rosto.svg">
+                        </div>
+
+                        <a class="nav-link text-center" style="color: #5C006B; font-weight: 600; padding: 0;">Hevelin
+                            Lopes</a>
+                        <a class="nav-link text-center" style="padding: 0; font-size: .9rem; margin-bottom: 1rem;">Belo
+                            Horizonte - MG</a>
+                    </div>
+                </div>
+                <li class="nav-item active">
+                    <a class="nav-link text-center" href="#">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#">Minhas compras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#">Minhas vendas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#">Favoritos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#">Configurações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#">Sair</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
 
     <br>
 
     <div class="container">
         <div class="row">
 
-            <div class="col-2 text-center content">
-                <img id="menu" src="/src/images/menu.png">
-            </div>
-            <div class="col-10">
-                <div class="input-group md-form form-sm form-1 pl-0">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-text1"><i class="fa fa-search" aria-hidden="true"></i></span>
-                    </div>
-                    <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
-                </div>
-
-            </div>
-            
             <div class="col-12 text-center texto-compra">
                 <h6>Venda Concluída</h6>
             </div>
-            
+
             <div class="col-12 text-center texto-compra-produto">
                 <h4>Bicicleta com motor</h4>
             </div>
         </div>
-        
-        
+
+
 
         <br>
 
@@ -57,15 +100,16 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <img id="img-product" class="rounded mx-auto d-block" id="img-product" src="/src/images/Search%20Field.svg">
+                <img id="img-product" class="rounded mx-auto d-block" id="img-product"
+                    src="/src/images/Search%20Field.svg">
             </div>
         </div>
     </div>
-    
+
     <div class="container detalhes-container">
-       <h6  id="details">&nbsp;Detalhes</h6>
-       <h6 class="labels">&nbsp;#1030492090921092</h6>
-       <br>
+        <h6 id="details">&nbsp;Detalhes</h6>
+        <h6 class="labels">&nbsp;#1030492090921092</h6>
+        <br>
         <div class="row">
             <div class="col-3">
                 <h6 class="labels">&nbsp;Produto</h6>
@@ -73,7 +117,7 @@
                 <h6 class="labels">&nbsp;Total</h6>
             </div>
             <div class="col-5">
-                
+
             </div>
             <div class="col-4">
                 <h6 class="labels-values">R$ 996,00</h6>
@@ -84,14 +128,14 @@
     </div>
 
     <br>
-    
-   
-    
+
+
+
     <div class="container detalhes-container">
-       <h6  id="details">&nbsp;Entrega</h6>
-       <h6 class="labels">&nbsp;Previsto para <span style="color: black"><b>20 de março 2020</b></span></h6>
-       <h6 class="labels">&nbsp;Rua Eneida,n666, Bairro Glória - Belo Horizonte|MG</h6>
-       
+        <h6 id="details">&nbsp;Entrega</h6>
+        <h6 class="labels">&nbsp;Previsto para <span style="color: black"><b>20 de março 2020</b></span></h6>
+        <h6 class="labels">&nbsp;Rua Eneida,n666, Bairro Glória - Belo Horizonte|MG</h6>
+
     </div>
 
     <br>
@@ -99,9 +143,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

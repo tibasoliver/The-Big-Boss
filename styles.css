@@ -1,6 +1,6 @@
 
 
-img{
+#logo{
     position: relative;
     width: 33%;
     padding: 5%;
@@ -18,4 +18,48 @@ img{
     justify-content: center;
     align-items: center;
     //background-color: aliceblue;
+}
+
+
+#basic-text1{
+    background-color: white;
+    color: darkgray;
+    border-right-color: white;
+}
+
+.form-control{
+    border-left-color: white;
+}
+
+#menu{
+    width:24px;
+    height: 24px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logo-central{
+    margin: 12px;
+}
+
+#img-product{
+    width: 330px;
+    height: 280px;
+    margin: 12px;
+}
+
+body{
+    margin: 0px;
+    padding: 0pc;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
 }

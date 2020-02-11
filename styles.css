@@ -6,7 +6,7 @@
     padding: 5%;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
+    background-color: #5C006B;
     
 }
 
@@ -17,7 +17,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    //background-color: aliceblue;
+    background-color: #5C006B;
 }
 
 
@@ -54,12 +54,45 @@
     margin: 12px;
 }
 
-body{
+.Loading{
     margin: 0px;
     padding: 0pc;
+    background-color: #5C006B;;
 }
 
-button{
+btn{
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
+    
+}
+
+#nome-produto{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(60, 60, 67, 0.6);
+    letter-spacing: -0.408px;
+}
+
+#categoria{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 5px;
+    color: #B9B9B9;
+}
+
+#descricao{
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #616161;
+
 }

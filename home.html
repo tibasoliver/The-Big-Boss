@@ -32,7 +32,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color: #FFE94F;">
             <ul class="navbar-nav mr-auto">
-                <div class="row" style="    margin-top: 1rem;">
+                <div class="row" style="margin-top: 1rem;">
                     <div class="col">
                         <div class="row d-flex justify-content-center">
                             <img src="/src/img/rosto.svg">
@@ -73,19 +73,29 @@
         </div>
     </nav>
     <div class="container-fluid" style="padding-top: 0.25rem; padding-bottom: 1rem;">
-        <a style="outline: 0; text-decoration: none;" href="produto.html">
-            <h3 class="title-one">Em Destaque</h3>
-            <div class="row">
-                <div class="col-12">
-                    <img id="img-product" class="rounded mx-auto d-block" src="/src/img/categories/sport/sport_01.svg">
-                </div>
+        <h3 class="title-one">Em Destaque</h3>
+        <div class="row justify-content-center">
+            <div class="col-2" style="margin-top: 25%;">
+                <a class="col-1 carousel-control-prev-icon" id="btn-prev" href="javascript:change_ad(0)"></a>
             </div>
-            <h5 class="title-two">Bicicleta Carbon Crash</h5>
-            <h5 class="title-two">¥ 696,59 ou US$ 100,00</h5>
-            <div class="col-12 text-center">
-                <div class="btn btn-yellow">Ver Oferta</div>
+            <div class="col-8 flip-card">
+                <a style="outline: 0; text-decoration: none;" href="produto.html" id="button">
+                    <div class="flip-card-inner" id="card-fliping">
+                        <div class="flip-card-front">
+                            <img id="img-product" class="rounded mx-auto d-block" style="margin-top: 1rem; margin-bottom: 1rem;">
+                            <h5 class="title-two" id="title"></h5>
+                            <h5 class="title-two" id="price"></h5>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center" style="margin-top: 1rem;">
+                        <div class="btn btn-yellow">Ver Oferta</div>
+                    </div>
+                </a>
             </div>
-        </a>
+            <div class="col-2" style="margin-top: 25%;">
+                <a class="col-1 carousel-control-next-icon" id="btn-next" href="javascript:change_ad(1)"></a>
+            </div>
+        </div>
     </div>
     </div>
     <div class="container-fluid" style="background: #5C006B;">
@@ -166,6 +176,7 @@
           </div>
         
     </div>
+    <script src="src/js/home.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>

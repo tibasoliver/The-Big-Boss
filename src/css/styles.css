@@ -67,7 +67,6 @@ li .nav-item {
     font-size: 1rem;
 }
 
-
 #basic-text1{
     background-color: white;
     color: darkgray;
@@ -83,7 +82,6 @@ li .nav-item {
     height: 24px;
 }
 
-
 .content {
     display: flex;
     justify-content: center;
@@ -96,9 +94,8 @@ li .nav-item {
 }
 
 #img-product{
-    width: 330px;
-    height: 280px;
-    margin: 12px;
+    width: 100%;
+    height: auto;
 }
 
 .Loading{
@@ -107,10 +104,34 @@ li .nav-item {
     background-color: #5C006B;;
 }
 
+.flip-card {
+    perspective: 64em;
+}
 
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 
 .Compra-Concluida{
     background: #FAFAFA;
+}
+
+.col-1.carousel-control-prev-icon, .col-1.carousel-control-next-icon:after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.col-1.carousel-control-next-icon, .col-1.carousel-control-prev-icon:after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 btn{

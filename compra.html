@@ -22,10 +22,11 @@
         </button>
         <div class="input-group md-form form-sm form-1 pl-0" style="width: 80%; padding: .5rem 1rem;">
             <div class="input-group-prepend">
+                <img src="src/img/search.svg" style="height: auto; width: 2rem; margin-right: 0.5rem;" alt="">
                 <span class="input-group-text" id="basic-text1" style="border: 0; background: #f8f9fa;"><i
                         class="fa fa-search" aria-hidden="true"></i></span>
             </div>
-            <input class="form-control my-0 py-1" type="text" placeholder="Pesquisar" aria-label="Search"
+            <input class="form-control my-0 py-1" type="text" name="search" placeholder="Pesquisar" aria-label="Search"
                 style="border: 0; background: #f8f9fa;">
         </div>
 
@@ -45,7 +46,7 @@
                     </div>
                 </div>
                 <li class="nav-item">
-                    <a class="nav-link text-center" href="compra.html">Home</a>
+                    <a class="nav-link text-center" href="compra.html">Início</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-center" href="compra.html">Destaques</a>
@@ -73,19 +74,19 @@
         </div>
     </nav>
     <div class="container-fluid" style="padding-top: 0.25rem; padding-bottom: 1rem;">
-        <h3 class="title-one">Bicicleta Carbon Crash</h3>
+        <h3 class="title-one" id="title"></h3>
         <div class="row">
             <div class="col-12">
                 <img id="img-product" class="rounded mx-auto d-block" src="/src/img/categories/sport/sport_01.svg">
             </div>
         </div>
         <h5 class="title-two">Compra Efetuada com Sucesso!</h5>
-        <h6 class="title-two" style="text-align: start;">Valor do Frete: ¥ 139,32 ou US$ 20,00</h6>
-        <h6 class="title-two" style="text-align: start;">Preço Final em Remimbi: ¥ 835,91</h6>
-        <h6 class="title-two" style="text-align: start;">Preço Final em Dólar: US$ 120,00</h6>
+        <h6 class="title-two" id="frete" style="text-align: start; margin-top: 1rem;"></h6>
+        <h6 class="title-two" id="price-r" style="text-align: start;"></h6>
+        <h6 class="title-two" id="price-d" style="text-align: start;"></h6>
         <h6 class="title-two" style="text-align: start;">Local de Entrega: Belo Horizonte - MG</h6>
         <a style="outline: none;" href="home.html">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center" style="margin-top: 1rem;">
                 <div class="btn btn-yellow">Página Inicial</div>
             </div>
         </a>
@@ -93,6 +94,7 @@
     </div>
         
     </div>
+    <script src="/src/js/compra.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>

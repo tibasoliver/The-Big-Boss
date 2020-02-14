@@ -43,36 +43,16 @@ function change_start() {
     now = localStorage.getItem('now');
     switch(now) {
         case '1':
-            if (t === 0) {
-                localStorage.setItem('now', 2);
-            }
-            else {
-                localStorage.setItem('now', 4);
-            }
+            localStorage.setItem('now', 2);
             break;
         case '2':
-            if (t === 0) {
-                localStorage.setItem('now', 3);
-            }
-            else {
-                localStorage.setItem('now', 1);
-            }
+            localStorage.setItem('now', 3);
             break;
         case '3':
-            if (t === 0) {
-                localStorage.setItem('now', 4);
-            }
-            else {
-                localStorage.setItem('now', 2);
-            }
+            localStorage.setItem('now', 4);
             break;
         case '4':
-            if (t === 0) {
-                localStorage.setItem('now', 1);
-            }
-            else {
-                localStorage.setItem('now', 3);
-            }
+            localStorage.setItem('now', 1);
             break;
     }
     setTimeout(function(){ new_ad() }, 700);
